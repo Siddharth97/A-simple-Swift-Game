@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		456814791D833320006076B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456814781D833320006076B9 /* AppDelegate.swift */; };
+		4568147B1D833321006076B9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4568147A1D833321006076B9 /* GameScene.sks */; };
+		4568147D1D833321006076B9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4568147C1D833321006076B9 /* Actions.sks */; };
+		4568147F1D833321006076B9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568147E1D833321006076B9 /* GameScene.swift */; };
+		456814811D833321006076B9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456814801D833321006076B9 /* GameViewController.swift */; };
+		456814841D833321006076B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456814821D833321006076B9 /* Main.storyboard */; };
+		456814861D833321006076B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456814851D833321006076B9 /* Assets.xcassets */; };
+		456814891D833321006076B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456814871D833321006076B9 /* LaunchScreen.storyboard */; };
+		456814991D833AD0006076B9 /* fc.png in Resources */ = {isa = PBXBuildFile; fileRef = 456814941D833AD0006076B9 /* fc.png */; };
+		4568149A1D833AD0006076B9 /* jays.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 456814951D833AD0006076B9 /* jays.jpg */; };
+		4568149B1D833AD0006076B9 /* leafs.png in Resources */ = {isa = PBXBuildFile; fileRef = 456814961D833AD0006076B9 /* leafs.png */; };
+		4568149C1D833AD0006076B9 /* marlies.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 456814971D833AD0006076B9 /* marlies.jpeg */; };
+		4568149D1D833AD0006076B9 /* raptors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 456814981D833AD0006076B9 /* raptors.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		456814751D833320006076B9 /* w5Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = w5Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		456814781D833320006076B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4568147A1D833321006076B9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4568147C1D833321006076B9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		4568147E1D833321006076B9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		456814801D833321006076B9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		456814831D833321006076B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		456814851D833321006076B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		456814881D833321006076B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4568148A1D833321006076B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456814941D833AD0006076B9 /* fc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fc.png; sourceTree = "<group>"; };
+		456814951D833AD0006076B9 /* jays.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jays.jpg; sourceTree = "<group>"; };
+		456814961D833AD0006076B9 /* leafs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leafs.png; sourceTree = "<group>"; };
+		456814971D833AD0006076B9 /* marlies.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marlies.jpeg; sourceTree = "<group>"; };
+		456814981D833AD0006076B9 /* raptors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = raptors.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		456814721D83331F006076B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4568146C1D83331E006076B9 = {
+			isa = PBXGroup;
+			children = (
+				456814771D833320006076B9 /* w5Game */,
+				456814761D833320006076B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		456814761D833320006076B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456814751D833320006076B9 /* w5Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456814771D833320006076B9 /* w5Game */ = {
+			isa = PBXGroup;
+			children = (
+				456814931D833A6A006076B9 /* Images */,
+				456814921D833A23006076B9 /* Storyboards */,
+				456814911D833A05006076B9 /* View Controllers */,
+				456814901D8339F2006076B9 /* Scenes */,
+				456814781D833320006076B9 /* AppDelegate.swift */,
+				456814851D833321006076B9 /* Assets.xcassets */,
+				4568148A1D833321006076B9 /* Info.plist */,
+			);
+			path = w5Game;
+			sourceTree = "<group>";
+		};
+		456814901D8339F2006076B9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4568147E1D833321006076B9 /* GameScene.swift */,
+				4568147A1D833321006076B9 /* GameScene.sks */,
+				4568147C1D833321006076B9 /* Actions.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		456814911D833A05006076B9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				456814801D833321006076B9 /* GameViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		456814921D833A23006076B9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				456814821D833321006076B9 /* Main.storyboard */,
+				456814871D833321006076B9 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		456814931D833A6A006076B9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				456814941D833AD0006076B9 /* fc.png */,
+				456814951D833AD0006076B9 /* jays.jpg */,
+				456814961D833AD0006076B9 /* leafs.png */,
+				456814971D833AD0006076B9 /* marlies.jpeg */,
+				456814981D833AD0006076B9 /* raptors.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		456814741D83331F006076B9 /* w5Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4568148D1D833321006076B9 /* Build configuration list for PBXNativeTarget "w5Game" */;
+			buildPhases = (
+				456814711D83331F006076B9 /* Sources */,
+				456814721D83331F006076B9 /* Frameworks */,
+				456814731D83331F006076B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = w5Game;
+			productName = w5Game;
+			productReference = 456814751D833320006076B9 /* w5Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4568146D1D83331E006076B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jawaad Sheikh";
+				TargetAttributes = {
+					456814741D83331F006076B9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6WEBUR4T7U;
+						DevelopmentTeamName = "Jawaad Sheikh (Personal Team)";
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 456814701D83331E006076B9 /* Build configuration list for PBXProject "w5Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4568146C1D83331E006076B9;
+			productRefGroup = 456814761D833320006076B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456814741D83331F006076B9 /* w5Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		456814731D83331F006076B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456814841D833321006076B9 /* Main.storyboard in Resources */,
+				4568147B1D833321006076B9 /* GameScene.sks in Resources */,
+				456814861D833321006076B9 /* Assets.xcassets in Resources */,
+				4568149D1D833AD0006076B9 /* raptors.jpg in Resources */,
+				4568149A1D833AD0006076B9 /* jays.jpg in Resources */,
+				456814891D833321006076B9 /* LaunchScreen.storyboard in Resources */,
+				4568149C1D833AD0006076B9 /* marlies.jpeg in Resources */,
+				456814991D833AD0006076B9 /* fc.png in Resources */,
+				4568147D1D833321006076B9 /* Actions.sks in Resources */,
+				4568149B1D833AD0006076B9 /* leafs.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		456814711D83331F006076B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568147F1D833321006076B9 /* GameScene.swift in Sources */,
+				456814811D833321006076B9 /* GameViewController.swift in Sources */,
+				456814791D833320006076B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		456814821D833321006076B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456814831D833321006076B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		456814871D833321006076B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456814881D833321006076B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4568148B1D833321006076B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4568148C1D833321006076B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4568148E1D833321006076B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = w5Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prog39856.w5Game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4568148F1D833321006076B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = w5Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prog39856.w5Game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		456814701D83331E006076B9 /* Build configuration list for PBXProject "w5Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4568148B1D833321006076B9 /* Debug */,
+				4568148C1D833321006076B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4568148D1D833321006076B9 /* Build configuration list for PBXNativeTarget "w5Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4568148E1D833321006076B9 /* Debug */,
+				4568148F1D833321006076B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4568146D1D83331E006076B9 /* Project object */;
+}
